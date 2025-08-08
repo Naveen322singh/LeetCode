@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0001-two-sum) |
 | [0146-lru-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Naveen322singh/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Linked List
 |  |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Naveen322singh/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Naveen322singh/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/Naveen322singh/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Naveen322singh/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Math
@@ -119,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/Naveen322singh/LeetCode/tree/master/0937-online-stock-span) |
 ## Data Stream
 |  |
@@ -140,4 +143,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
