@@ -1,17 +1,14 @@
 class Solution {
     public int numberOfSubarrays(int[] arr, int goal) {
         int [] final_array=convert_array_to_binary_array(arr);
-        int ans=countExactSum(final_array,goal);
-        return ans;
-        
+        return countExactSum(final_array,goal);        
     }
     public int[] convert_array_to_binary_array(int [] arr){
         int n=arr.length;
         int [] binary_array =new int[n];
         for (int i=0;i<n;i++){
-            if (arr[i]%2==1){
-                binary_array[i]=1;
-            }
+            if (arr[i]%2==1) binary_array[i]=1;
+            
             else{
                 binary_array[i]=0;
             }
