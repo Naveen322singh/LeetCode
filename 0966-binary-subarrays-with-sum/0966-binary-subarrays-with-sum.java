@@ -1,25 +1,32 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
-        return binarySubarrayCount(nums, goal) - binarySubarrayCount(nums, goal - 1);
-    }
-    
-    private int binarySubarrayCount(int[] arr, int goal) {
-        if (goal < 0) {
-            return 0;
-        }
-        int l = 0;
-        int r = 0;
-        int count = 0;
-        int sum = 0;
+    public int numSubarraysWithSum(int[] arr, int goal) {
         int n = arr.length;
-        while (r < n) {
-            sum += arr[r];
-            while (sum > goal) {
-                sum -= arr[l];
-                l++;
+        int count = 0;
+
+        int left = 0;    // main window start
+        int sum = 0;
+        int prefixZeros = 0; // count of leading zeros in window
+
+        for (int right = 0; right < n; right++) {
+            sum += arr[right];
+
+            // shrink from left if sum > goal
+            while (left < right && sum > goal) {
+                sum -= arr[left];
+                left++;
+                prefixZeros = 0; // reset zero count
             }
-            count += r - l + 1;
-            r++;
+
+            // count trailing zeros at left when sum == goal
+            while (left < right && arr[left] == 0 && sum == goal) {
+                prefixZeros++;
+                left++;
+            }
+
+            // if sum == goal, add count of subarrays ending here
+            if (sum == goal) {
+                count += 1 + prefixZeros;
+            }
         }
         return count;
     }
