@@ -1,18 +1,25 @@
 class Solution {
-    public int numSubarraysWithSum(int[] arr, int sum_k) {
-        HashMap<Integer, Integer> prefixSumCount = new HashMap<>();
-        prefixSumCount.put(0, 1); // To handle the case when the sum from index 0 to i equals sum_k
-        int currentSum = 0;
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        return binarySubarrayCount(nums, goal) - binarySubarrayCount(nums, goal - 1);
+    }
+    
+    private int binarySubarrayCount(int[] arr, int goal) {
+        if (goal < 0) {
+            return 0;
+        }
+        int l = 0;
+        int r = 0;
         int count = 0;
-
-        for (int num : arr) {
-            currentSum += num;
-            // Check if (currentSum - sum_k) exists in the map
-            if (prefixSumCount.containsKey(currentSum - sum_k)) {
-                count += prefixSumCount.get(currentSum - sum_k);
+        int sum = 0;
+        int n = arr.length;
+        while (r < n) {
+            sum += arr[r];
+            while (sum > goal) {
+                sum -= arr[l];
+                l++;
             }
-            // Update the map with the current prefix sum
-            prefixSumCount.put(currentSum, prefixSumCount.getOrDefault(currentSum, 0) + 1);
+            count += r - l + 1;
+            r++;
         }
         return count;
     }
