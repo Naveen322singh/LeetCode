@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Naveen322singh/LeetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Naveen322singh/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0053-maximum-subarray](https://github.com/Naveen322singh/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Naveen322singh/LeetCode/tree/master/0075-sort-colors) |
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0136-single-number](https://github.com/Naveen322singh/LeetCode/tree/master/0136-single-number) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/Naveen322singh/LeetCode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/Naveen322singh/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Naveen322singh/LeetCode/tree/master/0169-majority-element) |
 ## Heap (Priority Queue)
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Naveen322singh/LeetCode/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 ## Simulation
