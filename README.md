@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
 | [0239-sliding-window-maximum](https://github.com/Naveen322singh/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Naveen322singh/LeetCode/tree/master/0283-move-zeroes) |
 | [0496-next-greater-element-i](https://github.com/Naveen322singh/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Naveen322singh/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0001-two-sum) |
 | [0146-lru-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Naveen322singh/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0966-binary-subarrays-with-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Naveen322singh/LeetCode/tree/master/0002-add-two-numbers) |
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Naveen322singh/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Recursion
 |  |
@@ -93,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Naveen322singh/LeetCode/tree/master/0148-sort-list) |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 ## Stack
 |  |
 | ------- |
@@ -171,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/Naveen322singh/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
@@ -183,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/Naveen322singh/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
