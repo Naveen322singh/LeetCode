@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Naveen322singh/LeetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Naveen322singh/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0136-single-number](https://github.com/Naveen322singh/LeetCode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
 | [0239-sliding-window-maximum](https://github.com/Naveen322singh/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
@@ -192,5 +193,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Naveen322singh/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
