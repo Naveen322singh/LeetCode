@@ -19,6 +19,5 @@ class Solution {
         }
         List<List<Integer>> ans=new ArrayList<>(st);
         return ans;
-        
     }
 }
