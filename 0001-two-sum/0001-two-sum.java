@@ -10,6 +10,7 @@ class Solution {
             if(mpp.containsKey(need)){
                 ans[0]=mpp.get(need);
                 ans[1]=i;
+                return ans;
             }
             mpp.put(arr[i],i);
         }
