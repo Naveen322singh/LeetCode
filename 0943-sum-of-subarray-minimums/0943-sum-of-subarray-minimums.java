@@ -9,7 +9,7 @@ class Solution {
         for(int i=0;i<arr.length;i++){
             int left=i-pse[i];
             int right=nse[i]-i;
-            total=(int)((total+((long)left*right*arr[i])%mod)%mod);
+            total=(int)((total + ((long)left * right * arr[i]) % mod) % mod);
         }
         return total;
         
