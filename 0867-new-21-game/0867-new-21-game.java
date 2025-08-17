@@ -1,27 +1,24 @@
 class Solution {
-    public double new21Game(int N, int K, int maxPts) {
-        if (K == 0 || N >= K - 1 + maxPts) return 1.0;
-
-        double[] dp = new double[maxPts]; 
-        dp[0] = 1.0;
-        double windowSum = 1.0, result = 0.0;
-
-        for (int i = 1; i <= N; i++) {
-            double prob = windowSum / maxPts;
-            
-            if (i < K) {
-                windowSum += prob;
-            } else {
-                result += prob;
-            }
-
-            if (i >= maxPts) {
-                windowSum -= dp[i % maxPts];
-            }
-
-            dp[i % maxPts] = prob;
+    public double new21Game(int n, int k, int maxPts) {
+        if (k == 0 || n >= k - 1 + maxPts)
+            return 1.0;
+        if (n < k)
+            return 0.0;
+        double[] dp = new double[n + 1];
+        for (int i = 1; i <= n; i++){
+            dp[i] = 1.0;
         }
-
-        return result;
+        int right = Math.min(n, k + maxPts - 1);
+        double window = 0.0;
+        for (int i = k; i <= right; i++){
+            window += dp[i];
+        }
+        for (int i = k - 1; i >= 0; i--){
+            dp[i] = window / maxPts;
+            window += dp[i];
+            if (i + maxPts <= n)
+                window -= dp[i + maxPts];
+        }
+        return dp[0];
     }
 }
