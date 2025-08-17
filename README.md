@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Naveen322singh/LeetCode/tree/master/0002-add-two-numbers) |
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
+| [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Naveen322singh/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Naveen322singh/LeetCode/tree/master/1448-maximum-69-number) |
 ## Recursion
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Naveen322singh/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naveen322singh/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 ## Simulation
 |  |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Naveen322singh/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 | [0966-binary-subarrays-with-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Naveen322singh/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Naveen322singh/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -246,4 +249,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Naveen322singh/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 <!---LeetCode Topics End-->
