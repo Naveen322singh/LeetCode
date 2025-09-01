@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Naveen322singh/LeetCode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/Naveen322singh/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Naveen322singh/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0460-lfu-cache](https://github.com/Naveen322singh/LeetCode/tree/master/0460-lfu-cache) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Naveen322singh/LeetCode/tree/master/0020-valid-parentheses) |
+| [0205-isomorphic-strings](https://github.com/Naveen322singh/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0402-remove-k-digits](https://github.com/Naveen322singh/LeetCode/tree/master/0402-remove-k-digits) |
 | [1078-remove-outermost-parentheses](https://github.com/Naveen322singh/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
