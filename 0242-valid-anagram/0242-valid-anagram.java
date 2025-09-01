@@ -3,15 +3,21 @@ class Solution {
         if (s.length() != t.length()) {
             return false;
         }
-
-        HashMap<Character, Integer> sCount = new HashMap<>();
-        HashMap<Character, Integer> tCount = new HashMap<>();
+        Map<Character, Integer> counter = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
-            sCount.put(s.charAt(i), 1 + sCount.getOrDefault(s.charAt(i), 0));
-            tCount.put(t.charAt(i), 1 + tCount.getOrDefault(t.charAt(i), 0));
+            char ch = s.charAt(i);
+            counter.put(ch, counter.getOrDefault(ch, 0) + 1);
         }
 
-        return sCount.equals(tCount);        
+        for (int i = 0; i < t.length(); i++) {
+            char ch = t.charAt(i);
+            if (!counter.containsKey(ch) || counter.get(ch) == 0) {
+                return false;
+            }
+            counter.put(ch, counter.get(ch) - 1);
+        }
+
+        return true;        
     }
 }
