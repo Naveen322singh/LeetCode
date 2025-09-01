@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Naveen322singh/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Naveen322singh/LeetCode/tree/master/1448-maximum-69-number) |
+| [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Recursion
 |  |
 | ------- |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Naveen322singh/LeetCode/tree/master/0020-valid-parentheses) |
 | [0402-remove-k-digits](https://github.com/Naveen322singh/LeetCode/tree/master/0402-remove-k-digits) |
 | [1078-remove-outermost-parentheses](https://github.com/Naveen322singh/LeetCode/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Greedy
 |  |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Naveen322singh/LeetCode/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/Naveen322singh/LeetCode/tree/master/0402-remove-k-digits) |
 | [1448-maximum-69-number](https://github.com/Naveen322singh/LeetCode/tree/master/1448-maximum-69-number) |
+| [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Matrix
 |  |
 | ------- |
