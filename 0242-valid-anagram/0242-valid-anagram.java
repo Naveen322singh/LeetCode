@@ -17,7 +17,6 @@ class Solution {
             }
             counter.put(ch, counter.get(ch) - 1);
         }
-
         return true;        
     }
 }
