@@ -4,19 +4,14 @@ class Solution {
             return false;
         }
 
-        int[] count = new int[26];
+        HashMap<Character, Integer> sCount = new HashMap<>();
+        HashMap<Character, Integer> tCount = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
-            count[s.charAt(i) - 'a'] += 1;
+            sCount.put(s.charAt(i), 1 + sCount.getOrDefault(s.charAt(i), 0));
+            tCount.put(t.charAt(i), 1 + tCount.getOrDefault(t.charAt(i), 0));
         }
 
-        for (int i = 0; i < t.length(); i++) {
-            if (count[t.charAt(i) - 'a'] == 0) {
-                return false;
-            }
-            count[t.charAt(i) - 'a'] -= 1;
-        }
-
-        return true;        
+        return sCount.equals(tCount);        
     }
 }
