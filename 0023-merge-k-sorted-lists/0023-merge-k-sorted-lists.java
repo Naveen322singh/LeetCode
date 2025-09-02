@@ -8,37 +8,35 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+ import java.util.*;
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
         }
-        ListNode mergedList = lists[0];
-        for (int i = 1; i < lists.length; i++) {
-            mergedList = mergeTwoLists(mergedList, lists[i]);
-        }
-        return mergedList;
-    }
-    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
 
-        while (l1 != null && l2 != null) {
-            if (l1.val < l2.val) {
-                tail.next = l1;
-                l1 = l1.next;
-            } else {
-                tail.next = l2;
-                l2 = l2.next;
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
+
+        for (ListNode list : lists) {
+            if (list != null) {
+                minHeap.offer(list);
             }
-            tail = tail.next;
         }
-        // Attach the remaining elements
-        if (l1 != null) {
-            tail.next = l1;
-        } else {
-            tail.next = l2;
+
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+
+        while (!minHeap.isEmpty()) {
+            ListNode smallest = minHeap.poll();
+            current.next = smallest;
+            current = current.next;
+
+            if (smallest.next != null) {
+                minHeap.offer(smallest.next);
+            }
         }
+
         return dummy.next;
+        
     }
 }
