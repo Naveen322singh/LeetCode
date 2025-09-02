@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Naveen322singh/LeetCode/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Naveen322singh/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Naveen322singh/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Naveen322singh/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Naveen322singh/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Naveen322singh/LeetCode/tree/master/1448-maximum-69-number) |
 | [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -125,12 +127,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Naveen322singh/LeetCode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/Naveen322singh/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Naveen322singh/LeetCode/tree/master/0169-majority-element) |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Naveen322singh/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/Naveen322singh/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/Naveen322singh/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
 | ------- |
@@ -148,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Naveen322singh/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Naveen322singh/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Stack
 |  |
 | ------- |
@@ -292,4 +297,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Naveen322singh/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
