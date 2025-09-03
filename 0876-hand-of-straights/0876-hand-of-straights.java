@@ -1,35 +1,38 @@
-class Solution {
-    public boolean findsucessors(int[] hand, int groupSize, int i, int n) {
-        int f = hand[i] + 1;
-        hand[i] = -1;
-        int count = 1;
-        i += 1;
-        while (i < n && count < groupSize) {
-            if (hand[i] == f) {
-                f = hand[i] + 1;
-                hand[i] = -1;
-                count++;
-            }
-            i++;
-        }
-        if (count != groupSize)
-            return false;
-        else
-            return true;
-    }
+import java.util.*;
 
+public class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         int n = hand.length;
-        if (n % groupSize != 0)
+        if (n % groupSize != 0) {
             return false;
-        Arrays.sort(hand);
-        int i = 0;
-        for (; i < n; i++) {
-            if (hand[i] >= 0) {
-                if (!findsucessors(hand, groupSize, i, n))
+        }
+        
+        Map<Integer, Integer> countMap = new HashMap<>();
+        for (int card : hand) {
+            countMap.put(card, countMap.getOrDefault(card, 0) + 1);
+        }
+        
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int key : countMap.keySet()) {
+            minHeap.offer(key);
+        }
+        
+        while (!minHeap.isEmpty()) {
+            int first = minHeap.peek();
+            for (int i = first; i < first + groupSize; i++) {
+                if (!countMap.containsKey(i) || countMap.get(i) == 0) {
                     return false;
+                }
+                countMap.put(i, countMap.get(i) - 1);
+                if (countMap.get(i) == 0) {
+                    if (minHeap.peek() != i) {
+                        return false;
+                    }
+                    minHeap.poll();
+                }
             }
         }
+        
         return true;
     }
 }
