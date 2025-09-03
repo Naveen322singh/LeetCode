@@ -8,12 +8,14 @@ public class Solution {
         }
         
         Map<Integer, Integer> countMap = new HashMap<>();
-        for (int card : hand) {
-            countMap.put(card, countMap.getOrDefault(card, 0) + 1);
+        for (int i = 0; i < hand.length; i++) {
+            countMap.put(hand[i], countMap.getOrDefault(hand[i], 0) + 1);
         }
         
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        for (int key : countMap.keySet()) {
+        Set<Integer> keys = countMap.keySet();
+        for (Iterator<Integer> it = keys.iterator(); it.hasNext(); ) {
+            int key = it.next();
             minHeap.offer(key);
         }
         
