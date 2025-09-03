@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class Solution {
     public int leastInterval(char[] tasks, int n) {
         int[] freq = new int[26];
-        for (char task : tasks) {
-            freq[task - 'A']++;
+        for (int i = 0; i < tasks.length; i++) {
+            freq[tasks[i] - 'A']++;
         }
         
         Arrays.sort(freq);
