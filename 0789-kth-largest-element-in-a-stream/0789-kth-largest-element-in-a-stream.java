@@ -9,22 +9,21 @@ class KthLargest {
         this.minHeap = new PriorityQueue<>();
         
         // Add initial elements to the heap
-        for (int num : nums) {
-            add(num);
+        for (int i=0;i<nums.length;i++) {
+            add(nums[i]);
         }
     }
     
     public int add(int val) {
         // If heap has less than k elements, just add the value
         if (minHeap.size() < k) {
-            minHeap.offer(val);
+            minHeap.add(val);
         } 
         // If heap has k elements and new value is larger than the smallest in heap
         else if (val > minHeap.peek()) {
             minHeap.poll();    // Remove the smallest element
             minHeap.offer(val); // Add the new larger element
         }
-        
         // The top of minHeap is always the kth largest element
         return minHeap.peek();
     }
