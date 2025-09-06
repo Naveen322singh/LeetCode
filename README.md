@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Naveen322singh/LeetCode/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/Naveen322singh/LeetCode/tree/master/0735-asteroid-collision) |
 | [0876-hand-of-straights](https://github.com/Naveen322singh/LeetCode/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Naveen322singh/LeetCode/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Naveen322singh/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Naveen322singh/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Naveen322singh/LeetCode/tree/master/0402-remove-k-digits) |
 | [0621-task-scheduler](https://github.com/Naveen322singh/LeetCode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Naveen322singh/LeetCode/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/Naveen322singh/LeetCode/tree/master/0890-lemonade-change) |
 | [1448-maximum-69-number](https://github.com/Naveen322singh/LeetCode/tree/master/1448-maximum-69-number) |
 | [2032-largest-odd-number-in-string](https://github.com/Naveen322singh/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Matrix
