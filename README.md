@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Naveen322singh/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Naveen322singh/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Naveen322singh/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0485-max-consecutive-ones](https://github.com/Naveen322singh/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Naveen322singh/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Naveen322singh/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Naveen322singh/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Naveen322singh/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Naveen322singh/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Naveen322singh/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Naveen322singh/LeetCode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Naveen322singh/LeetCode/tree/master/0876-hand-of-straights) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Naveen322singh/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naveen322singh/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0435-non-overlapping-intervals](https://github.com/Naveen322singh/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Naveen322singh/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -236,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Naveen322singh/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Naveen322singh/LeetCode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Naveen322singh/LeetCode/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/Naveen322singh/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/Naveen322singh/LeetCode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Naveen322singh/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Naveen322singh/LeetCode/tree/master/0890-lemonade-change) |
