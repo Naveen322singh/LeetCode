@@ -17,7 +17,6 @@ class Solution {
                 current = interval;
             }
         }
-
         res.add(current);
         return res.toArray(new int[res.size()][]);
     }
