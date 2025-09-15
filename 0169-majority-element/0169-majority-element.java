@@ -5,12 +5,12 @@ class Solution {
         for(int i=0;i<n;i++){
             mpp.put(arr[i],mpp.getOrDefault(arr[i],0)+1);
         }
-        int ans=0;
+        
         for(int i=0;i<n;i++){
             if(mpp.get(arr[i])>n/2){
-                ans= arr[i];
+                return arr[i];
             }
         }
-        return ans;
+        return -1;
     }
 }
