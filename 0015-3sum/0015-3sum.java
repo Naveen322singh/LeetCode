@@ -1,7 +1,7 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] arr) {
+        Set<List<Integer>> st=new HashSet<>();
         int n=arr.length;
-        Set<List<Integer>> st = new HashSet<>();
         for(int i=0;i<n;i++){
             Set<Integer> hashset=new HashSet<>();
             for(int j=i+1;j<n;j++){
@@ -17,7 +17,8 @@ class Solution {
                 hashset.add(arr[j]);
             }
         }
-        List<List<Integer>> ans=new ArrayList<>(st);
-        return ans;
+        List<List<Integer>> list=new ArrayList<>(st);
+        return list;
+        
     }
 }
