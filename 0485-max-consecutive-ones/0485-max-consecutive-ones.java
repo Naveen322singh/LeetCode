@@ -1,5 +1,5 @@
 class Solution {
-    public int findMaxConsecutiveOnes(int[] arr) { 
+    public int findMaxConsecutiveOnes(int[] arr) {
         int n=arr.length;
         int count=0;
         int maxi=0;
@@ -12,6 +12,7 @@ class Solution {
             }
             maxi=Math.max(maxi,count);
         }
+        
         return maxi;
     }
 }
