@@ -15,6 +15,5 @@ class Solution {
                 matrix[i][n-j-1]=temp;
             }
         }
-    
     }
 }
