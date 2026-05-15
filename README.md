@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Naveen322singh/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Naveen322singh/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Naveen322singh/LeetCode/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/Naveen322singh/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Naveen322singh/LeetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Naveen322singh/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Naveen322singh/LeetCode/tree/master/0055-jump-game) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Naveen322singh/LeetCode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Naveen322singh/LeetCode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Naveen322singh/LeetCode/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Naveen322singh/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Naveen322singh/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0867-new-21-game](https://github.com/Naveen322singh/LeetCode/tree/master/0867-new-21-game) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Naveen322singh/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Naveen322singh/LeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Naveen322singh/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/Naveen322singh/LeetCode/tree/master/0085-maximal-rectangle) |
