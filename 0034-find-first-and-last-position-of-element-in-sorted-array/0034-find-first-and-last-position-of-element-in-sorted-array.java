@@ -38,7 +38,7 @@ class Solution {
             else if(arr[mid]<x){
                 low=mid+1;
             }
-            else {
+            else if(arr[mid]>x){
                 high=mid-1;
             }
         }
