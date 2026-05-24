@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Naveen322singh/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Naveen322singh/LeetCode/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/Naveen322singh/LeetCode/tree/master/0735-asteroid-collision) |
+| [0875-koko-eating-bananas](https://github.com/Naveen322singh/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/Naveen322singh/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Naveen322singh/LeetCode/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/Naveen322singh/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Naveen322singh/LeetCode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Naveen322singh/LeetCode/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Naveen322singh/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0875-koko-eating-bananas](https://github.com/Naveen322singh/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Naveen322singh/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Naveen322singh/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Prefix Sum
