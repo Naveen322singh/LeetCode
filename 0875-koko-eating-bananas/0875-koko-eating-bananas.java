@@ -6,19 +6,19 @@ class Solution {
         }
         int low = 1;
         int high= maxi;
-        int ans=Integer.MAX_VALUE;
+     
         while(low<=high){
             int mid=(low+high)/2;
             int totalhrs=calculate(piles,mid);
             if(totalhrs<=h){
-                ans=mid;
+             
                 high=mid-1;
             }
             else{
                 low=mid+1;
             }
         }
-        return ans;
+        return low;
     }
     public int calculate(int[] arr, int hourly) {
         int totalH = 0;
